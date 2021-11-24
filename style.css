@@ -1,0 +1,70 @@
+/*Estilo da Home*/
+body{
+    background-image: url("asserts/imagens/fundo_sora.jpg");
+    background-color: #0D0D0D;
+    font: 20px,Arial,Helvetica,sans-serif;
+    margin: 0px;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    width: 900px;
+}
+#menu{
+    background: #595959;
+    padding: 15px;
+}
+.txt{
+    color: #737373;
+    
+}
+.tamanho{
+    font-size: 20px;
+}
+.conteudo{
+    padding: 15px;
+}
+
+.caps{
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    color: #BEC7C7;
+    
+}
+.link:hover{
+    color:#06111C;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
+.center{
+    text-align: center;
+}
+/*Estilo Biografia*/
+.lado{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo Mundos*/
+.baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pd-10{
+    padding: 10px;
+}
